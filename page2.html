@@ -1,0 +1,132 @@
+<DOCTYPE html>
+<html lang="es">
+<head>
+	    <meta charset="utf-8"/>
+	    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<link rel="shortcut icon"type="image/x-icon" href="favicon.ico"/>
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	    <script type="text/javascript" src="js/jquery.js"></script>
+	    <script type="text/javascript" src="js/preguntas3.js"></script>
+	    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.9.2.custom.min.css">
+
+</head>
+
+<body>
+	<table class="malla" style="width:100%">
+		<tr>
+			<th colspan="2">1er Año</th>
+			<th colspan="2">2do Año</th>
+			<th colspan="2">3er Año</th>
+			<th colspan="2">4to Año</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="background:#5CC8B5">Exigencia Académica</th>
+			<th colspan="2" style="background:#79ACFB">Calidad</th>
+			<th colspan="2" style="background:#FFD405; color:#000">Liderazgo y Trabajo en Equipo</th>
+			<th colspan="2" style="background:#A9AAD6">Pensamiento Crítico</th>
+		</tr>
+		<tr class="semestres">
+			<td style="width:12.5%;background:#5CC8B5" class="preg" alt="cr1">1° SEMESTRE</td>
+			<td style="width:12.5%;background:#5CC8B5" class="preg" alt="cr2">2° SEMESTRE</td>
+			<td style="width:12.5%;background:#79ACFB" class="preg" alt="ju1">3° SEMESTRE</td>
+			<td style="width:12.5%;background:#79ACFB" class="preg" alt="ju2">4° SEMESTRE</td>
+			<td style="width:12.5%;background:#FFD405; color:#000" class="preg" alt="au1">5° SEMESTRE</td>
+			<td style="width:12.5%;background:#FFD405; color:#000" class="preg" alt="au2">6° SEMESTRE</td>
+			<td style="width:12.5%;background:#A9AAD6" class="preg" alt="fo1">7° SEMESTRE</td>
+			<td style="width:12.5%;background:#A9AAD6" class="preg" alt="fo2">8° SEMESTRE</td>
+		</tr>
+		<tr>
+			<td style="background:#3CA625" class="preg" alt="cr1">BEA</td>
+			<td style="background:#5DC7B8" class="preg" alt="cr2" id="r001"></td>
+			<td style="background:#3CA625" class="preg" alt="ju1">BEA</td>
+			<td style="background:#5DC7B8" class="preg" alt="ju2">BEA</td>
+			<td style="background:#3CA625" class="preg" alt="au1">BEA</td>
+			<td style="background:#FDA82D" class="preg" alt="au2" id="r010"></td>
+			<td style="background:#FDA82D" class="preg" alt="fo1">PRACTICUM</td>
+			<td style="background:#FDA82D" class="preg" alt="fo2">PRACTICUM</td>
+		</tr>
+		<tr>
+			<td style="background:#FDA82D" class="preg" alt="cr1" id="r020"></td>
+			<td style="background:#FDA82D" class="preg" alt="cr2">COMPETENCIA</td>
+			<td style="background:#FDA82D" class="preg" alt="ju1">COMPETENCIA</td>
+			<td style="background:#FDA82D" class="preg" alt="ju2">COMPETENCIA</td>
+			<td style="background:#FDA82D" class="preg" alt="au1">COMPETENCIA</td>
+			<td style="background:#FE7C24" class="preg" alt="au2"id="r030"></td>
+			<td style="background:#FDA82D" class="preg" alt="fo1">COMPETENCIA</td>
+			<td style="background:#FE7C24" class="preg" alt="fo2"id="r040"></td>
+		</tr>
+		<tr>
+			<td style="background:#FE7C24" class="preg" alt="au2">Horas Newman</td>
+			<td style="background:#FE7C24" class="preg" alt="au2">Horas Newman</td>
+			<td style="background:#80A003" class="preg" alt="ju1"id="r050"></td>
+			<td style="background:#80A003" class="preg" alt="ju2">SEMI-PRESENCIAL</td>
+			<td style="background:#FE7C24" class="preg" alt="au2"id="r060"></td>
+			<td style="background:#064379" class="preg" alt="au2">Concurso</td>
+			<td style="background:#80A003" class="preg" alt="fo1">En Línea</td>
+			<td style="background:#E8DB07" class="preg" alt="fo2"id="r070"></td>
+		</tr>
+		<tr>
+			<td style="background:#E8DB07" class="preg" alt="cr1">&pi; MAT</td>
+			<td style="background:#80A003" class="preg" alt="ju2" id="r080"></td>
+			<td style="background:#80A003" class="preg" alt="ju2">@prende</td>
+			<td style="background:#80A003" class="preg" alt="ju2">@prende</td>
+			<td style="background:#80A003" class="preg" alt="ju2">@prende</td>
+			<td style="background:#064379" class="preg" alt="au2"id="r090"></td>
+			<td style="background:#064379" class="preg" alt="au2">CONGRESO</td>
+			<td style="background:#E8DB07" class="preg" alt="fo2">CENEVAL</td>
+		</tr>
+		<tr>
+			<td style="background:#28ABE2" class="preg" alt="cr1" id="r100"></td>
+			<td style="background:#28ABE2" class="preg" alt="cr1">INGLÉS</td>
+			<td style="background:#28ABE2" class="preg" alt="cr1">INGLÉS</td>
+			<td style="background:#28ABE2" class="preg" alt="cr1">INGLÉS</td>
+			<td style="background:#39D2AA" class="preg" alt="au1" id="r110"></td>
+			<td style="background:#28ABE2" class="preg" alt="cr1">INGLÉS</td>
+			<td style="background:#28ABE2" class="preg" alt="cr1">INGLÉS</td>
+			<td style="background:#39D2AA" class="preg" alt="fo2">CERTIFICACIÓN TOEIC/TOEFL</td>
+		</tr>
+		<tr>
+			<td style="background:#FC7B21" class="preg" alt="cr1" id="r120"></td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+			<td style="background:#FC7B21" class="preg" alt="cr1">HUMANIDADES</td>
+		</tr>
+		<tr>
+			<td colspan="8" class="plan" alt="se1">Plan de Vida</td>
+		</tr>
+		<tr>
+			<td colspan="8" class="portafolio" alt="se1">Portafolio Profesional</td>
+		</tr>
+	</table>
+	<div id="conductas" class="al-ma">
+		<div class="respuesta" alt="r001" style="display: inline-block;">BEA</div>
+		<div class="respuesta" alt="r010" style="display: inline-block;">PRACTICUM</div>
+		<div class="respuesta" alt="r020" style="display: inline-block;">COMPETENCIA</div>
+		<div class="respuesta" alt="r030" style="display: inline-block;">Horas Newman</div>
+
+		<div class="respuesta" alt="r040" style="display: inline-block;">Restart</div>
+		<div class="respuesta" alt="r050" style="display: inline-block;">SEMI-PRESENCIAL</div>
+		<div class="respuesta" alt="r060" style="display: inline-block;">Acción Social</div>
+		<div class="respuesta" alt="r070" style="display: inline-block;">Certificación por Carrera</div>
+
+		<div class="respuesta" alt="r080" style="display: inline-block;">@prende</div>
+ <div class="respuesta" alt="r090" style="display: inline-block;">VIAJE</div>
+ <div class="respuesta" alt="r100" style="display: inline-block;">INGLÉS</div>
+ <div	class="respuesta" alt="r110" style="display: inline-block;">MATERIA EN INGLÉS</div>
+
+		<div class="respuesta" alt="r120" style="display: inline-block;">HUMANIDADES</div>
+	</div>
+
+	</section>
+	<div id="resultados">
+
+	</div>
+
+
+</body>
+</html>
